@@ -1,8 +1,83 @@
+@media all and (max-width: 500px) {
+  body {
+      background-color: #33CC33;
+      font-size: 2em;
+  }
+}
+
 h1 {
-    font-size:26px;
+  font-size:26px;
+  text-align:center;
+  text-shadow:2px 2px 8px #FF0000;
+  color:yellow;
+}
+
+h1 {
+  font-size:3em;
+}
+
+h2 {
+  font-size:20px;
+}
+
+h3 {
+  font-size:18px;
+  color:black;
 }
 
 body {
-    font-family:Arial;
+  font-family:Arial;
+  color:red;
+  background-image:url(http://www.thecommunitypicnic.com/wp-content/uploads/2015/01/lawn.jpg);
+}
+
+.top {
+  text-align:center;
+  color:yellow;
+  text-shadow: 2px 2px 8px #FF0000;
+  margin-bottom:15px;
+}
+
+.websites {
+  text-align:center;
+  font-size:15px;
+  color:red;
+  margin-bottom:30px;
+}
+
+.active {
+  color:orange; 
+  font-weight: bolder; 
+}
+
+li a:hover {
+  color:blue;
+}
+
+ul li {
+  display:inline;
+  text-decoration:none;
+}
+
+nav a {
+  color: red;
+  text-decoration: none;
+  padding:10px;
+  font-size:1.5em;
+}
+
+.summary {
+    background:rgba(255,255,0,0.5); 
+    width:90%;
+    margin: 0px auto;
+    padding:15px 2px 15px 2px;
+    font-size:18px;
+}
+
+.top {
+  text-align:center;
+  color:yellow;
+  text-shadow: 2px 2px 8px #FF0000;
+  margin-bottom:15px;
 }
 
